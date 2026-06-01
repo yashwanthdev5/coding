@@ -21,15 +21,15 @@ class Employee {
         }
     }
 
-    int getId() {
+    public int getId() {
         return id;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    double getSalary() {
+    public double getSalary() {
         return salary;
     }
 }
