@@ -1,19 +1,43 @@
 package OOPs;
 
-public class Encapsulation {
-    public static void main(String[] args) {
-        bank b=new bank();
-        int balance=b.getData();
-        System.out.println("balance :"+balance);
+class Employee {
+    private int id;
+    private String name;
+    private double salary;
+
+    void setId(int id) {
+        this.id = id;
+    }
+
+    void setName(String name) {
+        this.name = name;
+    }
+
+    void setSalary(double salary) {
+        if (salary > 0) {
+            this.salary = salary;
+        } else {
+            System.out.println("Invalid Salary");
+        }
+    }
+
+    int getId() {
+        return id;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    double getSalary() {
+        return salary;
     }
 }
-class bank{
-    private int balance;
-    void setData(int balance)
-    {
-        this.balance=balance;
-    }
-    int getData(){
-        return balance;
+
+public class Encapsulation {
+    public static void main(String[] args) {
+        Employee e = new Employee();
+        e.setSalary(-1000);
+        System.out.println(e.getSalary());
     }
 }

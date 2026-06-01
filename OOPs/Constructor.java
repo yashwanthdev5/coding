@@ -2,23 +2,25 @@ package OOPs;
 
 public class Constructor {
     public static void main(String[] args) {
-        Student sc = new Student();
+        Student sc = new Student("yash", 100000);
+        sc.diplayInfo();
     }
 }
-class Student{
-    static{
-        System.out.println("In static block ");
-    }
+
+class Student {
+
+    String name;
+    int salary;
+
     // parameterised constructor
-    public Student(String name)
-    {
-        System.out.println("In parameterised constructor ");
-        System.out.println("Name : "+ name);
+    public Student(String n, int s) {
+        name = n;
+        salary = s;
     }
-    // default constructor
-    public Student()
-    {
-        System.out.println("In default constructor ");
+
+    void diplayInfo() {
+        System.out.println(" Name : " + name);
+        System.out.println("Salary :" + salary);
     }
-    
+
 }
