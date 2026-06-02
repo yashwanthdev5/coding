@@ -14,8 +14,9 @@ This repository contains my Java learning journey from beginner to advanced leve
 ✅ Arrays    
 ✅ Methods  
 ✅ OOP
-✅ Exception Handling
 ✅ Strings
+
+
 
 ## 📂 Repository Structure
 
