@@ -1,32 +1,33 @@
 package OOPs;
 
 class Animal{
-      void sound()
+     // whenever we are using static the method refrence is taken and printed
+      static void sound()
       {
         System.out.println("Animal sound");
       }
-      void bark()
+       void bark()
        {
-        System.out.println("bark");
+        System.out.println("barking");
        }
 }
 class Dog extends Animal
 {
      // method Overriding..
-       void sound()
+       static  void sound()
        {
         System.out.println("Dog sound");
        }
-       // gives compilation error if only present in this class...
-    //     void bark()
-    //    {
-    //     System.out.println("bark");
-    //    }
+       //gives compilation error if only present in this class...
+        final  void bark()
+       {
+        System.out.println("bark");
+       }
        
 }
 public class RunTimePolymorphism {
     public static void main(String[] args) {
-        Dog a=new Dog();
+        Animal a =new Dog();
         a.sound();
         a.bark();
     }

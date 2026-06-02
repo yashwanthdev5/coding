@@ -11,7 +11,7 @@ abstract class Vehicl {
 class Scooter extends Vehicl {
 
     void start() {
-        System.out.println("Car Started");
+        System.out.println("Scooter Started");
     }
 
 }
