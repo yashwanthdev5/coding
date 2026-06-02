@@ -11,10 +11,11 @@ This repository contains my Java learning journey from beginner to advanced leve
 ✅ Operators  
 ✅ Conditional Statements  
 ✅ Loops  
-✅ Arrays  
-✅ Strings  
+✅ Arrays    
 ✅ Methods  
 ✅ OOP
+✅ Exception Handling
+✅ Strings
 
 ## 📂 Repository Structure
 
@@ -34,7 +35,7 @@ Become placement-ready for software development roles.
 - [x] Java Basics
 - [x] Loops
 - [x] Arrays
-- [ ] OOP
+- [x] OOP
 - [ ] Collections
 - [ ] DSA
 
