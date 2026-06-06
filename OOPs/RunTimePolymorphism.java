@@ -28,7 +28,7 @@ class Dog extends Animal
 public class RunTimePolymorphism {
     public static void main(String[] args) {
         Animal a =new Dog();
-        a.sound();
+        Dog.sound();
         a.bark();
     }
 }

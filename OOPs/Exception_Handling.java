@@ -10,6 +10,7 @@ public class Exception_Handling {
             System.out.println("Enter the denominator :");
             int denominator=sc.nextInt();
             double result = numarator/denominator;
+            System.out.println(result);
         }catch(Exception e)
         {
             System.out.println("Exception is "+e);
