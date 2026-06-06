@@ -26,5 +26,6 @@ public class RemoveSpaces {
 
         }
         System.out.println(sb);
+        sc.close();
     }
 }
