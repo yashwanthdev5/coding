@@ -1,6 +1,5 @@
 package List;
 
-import java.util.ArrayList;
 import java.util.*;
 
 
@@ -19,11 +18,13 @@ public class ArrayListDemo {
         // get(0)
         Integer i=arr.get(0);
         System.out.println(i);
-        // remove()
+        // remove() using index (to delete element at index specified)
+         // Interger.valueof(200) to directly delete object
+        // Integer.valueOf(1);
         arr.remove(0);
         System.out.println(arr);
         System.out.println(arr.contains(0));
-        // Interger.valueof(200) to directly delete object
+       
         // size()
         System.out.println(arr.size());
         // isEmpty()
