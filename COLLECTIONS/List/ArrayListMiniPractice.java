@@ -44,5 +44,6 @@ public class ArrayListMiniPractice
         System.out.println("Highest Marks : "+highest);
         System.out.println("Lowes Marks : "+lowest);
         System.out.println("Average is : "+average);
+        sc.close();
     }
 }
