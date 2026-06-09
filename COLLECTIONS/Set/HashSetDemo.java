@@ -15,6 +15,8 @@ public class HashSetDemo {
         set.remove(200);
         // set.clear();
         System.out.println(set.hashCode());
+        // used to get the class
+        System.out.println(set.getClass());
         System.out.println(set);
 
     }

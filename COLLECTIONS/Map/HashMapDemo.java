@@ -10,6 +10,7 @@ public class HashMapDemo {
         h.put(3, "sai");
         h.put(4, "supriya");
         for (int i = 1; i < 5; i++) {
+            // hascode -->index bucket --> equals()
             System.out.println(h.get(i));
         }
         System.out.println(h.isEmpty());
