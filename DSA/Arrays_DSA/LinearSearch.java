@@ -23,12 +23,14 @@ class Linear{
 public class LinearSearch {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        // user enters size of the array
         System.out.println("Enter the Array size :");
         int size=sc.nextInt();
         int arr[]=new int[size];
         System.out.println("Enter "+size+" elements :");
         for(int i=0;i<arr.length;i++)
         {
+            //users enters the elements into the array
             arr[i]=sc.nextInt();
         }
         System.out.println("Enter the Element you want to search :");
