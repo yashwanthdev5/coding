@@ -6,7 +6,7 @@ public class demo {
             int a = 10 / 0;
             System.out.print(a);
         } catch (Exception e) {
-            System.out.println("Error");
+            System.out.println("Error " +e);
         }
     }
 
