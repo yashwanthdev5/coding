@@ -1,6 +1,6 @@
 package OOPs;
 
-abstract class Vehicl {
+abstract class Vehicle {
     abstract void start();
 
     void stop() {
@@ -8,7 +8,7 @@ abstract class Vehicl {
     }
 }
 
-class Scooter extends Vehicl {
+class Scooter extends Vehicle {
 
     void start() {
         System.out.println("Scooter Started");
